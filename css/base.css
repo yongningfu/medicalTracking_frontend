@@ -1,0 +1,201 @@
+body {
+	color: white;
+	/*background: white !important;*/
+}
+.page {
+	background-color: white;
+	color: black;
+}
+
+body.with-panel-left-cover .panel-overlay {
+   background: rgba(0, 0, 0, 0.2);
+   opacity: 1;
+} 
+
+
+.app-theme-bg-color {
+	background-color: green;
+}
+
+.app-font-color {
+	color: #a9a9a9;
+}
+
+.app-theme-font-color {
+	color: #ff5d8f;
+}
+
+div.app-row-col-text-align  [class*="col-"] {
+	text-align: center;
+}
+
+.app-price-color {
+	color: red;
+} 
+
+
+
+.toolbar a {
+	color: green;
+}
+
+/**
+ * floatbutton
+ * */
+
+#floatbutton {
+	position: fixed;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	bottom: 60px;
+	right: 10px;
+	z-index: 1;
+	color: white;
+	border-color: white;
+	text-align: center;
+	line-height: 70px;
+	font-size: 36px;
+	background-color: rgba(0, 255, 0, 0.5);
+	/*opacity: 0.5;*/
+	/*overflow: visible;*/
+}
+
+/**
+ * aboutprojectx 项目界面
+ * */
+#aboutprojectpage .swiper-container {
+  height: 100%;
+  color: green;
+
+}
+#aboutprojectpage .swiper-slide {
+  background:#fff;
+}
+
+#aboutprojectpage .swiper-slide .content-block-title {
+	color: green;
+	font-size: 2em;
+}
+
+#aboutprojectpage .swiper-slide .content-block {
+	color: green;
+}
+
+
+.about_project_login_container {
+	
+	margin-top: 8vw;
+	height: 20vw;
+	width:80%;
+}
+
+.about_project_login_container img {
+	width: 100%;
+	height: 100%;
+}
+
+.about_project_avatar_container {
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-right: 10px;
+}
+
+.about_project_avatar_container img {
+	width: 100%;
+	height: 100%;
+}
+
+.slide_container_img {
+	width: 90%;
+	margin:  0 auto;
+	height: 80vw;
+	/*border-image: url(../img/base/home_border.png) 25% 25% 25% 25% / 25px round round;*/
+	
+}
+.img_title {
+	
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.slide_container_img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	box-shadow: 3px 3px 3px 2px #666;
+}
+
+#aboutprojectpage .swiper-container h1, #aboutprojectpage .swiper-container p {
+	margin-left: 15px;
+}
+
+#aboutprojectpage .swiper-slide  span {
+  text-align:center;
+  display:block;
+  margin:20px;
+  font-size:21px;
+  color:green;
+}
+
+
+/***字体动画*/
+@keyframes typing { from { width: 0; } }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
+.swiper-slide-active  .animation {
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 5s steps(19, end), /* # of steps = # of chars */
+	blink-caret .2s step-end infinite alternate;
+}
+.swiper-slide-prev .animation {
+	white-space: nowrap;
+	overflow: hidden;
+	animation: typing 5s steps(19, end), /* # of steps = # of chars */
+	blink-caret .2s step-end infinite alternate;
+}
+
+.animationTxtLength19 {
+	width: 23em; /* fallback */
+	width: 41ch; /* # of chars */
+}
+
+.animationTxtLength23 {
+	
+	width: 26em;
+	width: 46ch; 
+}
+
+.animationTxtLength10 {
+	width: 15em;
+	width: 18ch; 
+}
+
+
+/**table*/
+
+#aboutprojectpage .swiper-slide table {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.backgroundRed {
+	/*background: url(../img/base/avator.jpg) no-repeat center center;
+	background-size: 100% 100%;*/
+	background: rgba(255, 0, 0, 0.5) !important;
+	color: greenyellow !important;
+}
+
+
+
+
+
+
+
+
+

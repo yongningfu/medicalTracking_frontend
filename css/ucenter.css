@@ -1,0 +1,52 @@
+
+div.loginIcuteImage img {
+	width: 100%;
+	height: 100%;
+}
+
+div.loginIcuteImage {
+	width: 33vw;
+	height: 33vw;
+	margin: 0 auto;
+	margin-top: 15vw;
+}
+
+div.loginIcuteImage img {
+	border-radius: 50%;
+	-moz-border-radius: 50%; /* Old Firefox */
+}
+
+
+a.login-link-font-color-light {
+	color: #a9a9a9;
+}
+
+.list-block input[type=text].phoneToGetVerify {
+	float:left;
+	width: 70%;
+}
+
+p.ucenter-p-margin-top {
+	margin-top:6px;
+	margin-bottom: 0;
+}
+
+a.login-a-range-bigger {
+	
+	display: block;
+	padding: 5px 5px;
+}
+
+.list-block .item-input input.error {
+	padding-right: 30px;
+	background: url(../img/error/error2.png) no-repeat right center;
+	background-size: 25px 25px;
+}
+
+.list-block .item-input input.success {
+	padding-right: 30px;
+	background: url(../img/error/success.png) no-repeat right center;
+	background-size: 25px 25px;
+}
+
+
